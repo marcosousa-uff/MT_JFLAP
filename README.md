@@ -25,3 +25,5 @@ Leu a empilha A; leu b desempilha A.
 * Para com entrada aceita e pilha vazia (#A) - q1a1ea111eq11#q11a111a111eeq111$a1a111
 
 * Para com entrada aceita e pilha não-vazia (#R) - q1a1ea111eq11#q11a111a111eeq111$a1a111a1111
+
+* Para com entrada aceita e pilha vazia (#A) - q11a111a111eeq111#q1a1ea111eq11$a1a111 (no momento está marcando #R)
