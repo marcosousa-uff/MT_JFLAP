@@ -4,8 +4,6 @@ Máquina de Turing simulando um autômato de pilha no programa Jflap.
 # Testes
 Exemplos de entrada.
 
-Leu a empilha A; leu b desempilha A.
-
 * Com um estado (#A) - q1a1ea111eq1#q1a1a111a111a111q1#q1a11a111eeq1#q1a11a111eeq1$a1a1a11a11
 
 * Com múltiplos estados (#A) - q1a1ea111eq11#q11a1a111a111a111q11#q11a11a111eeq111#q111a11a111eeq111$a1a1a11a11
@@ -26,4 +24,10 @@ Leu a empilha A; leu b desempilha A.
 
 * Para com entrada aceita e pilha não-vazia (#R) - q1a1ea111eq11#q11a111a111eeq111$a1a111a1111
 
-* Para com entrada aceita e pilha vazia (#A) - q11a111a111eeq111#q1a1ea111eq11$a1a111 (no momento está marcando #R)
+* Para com entrada aceita e pilha vazia (#A) - q11a111a111eeq111#q1a1ea111eq11$a1a111
+
+* Para com entrada aceita e não acha transição que processe o primeiro símbolo da entrada (#R) - q1a111a111eeq111#q11a1ea111eq1$a1a111
+
+* Para com entrada aceita e pilha vazia (#A) - q11a111a111eeq111#q1a1ea111eq11$a1a111
+
+* Para com entrada aceita e pilha vazia (#A) - q1a111ea111eq11#q1a1ea111eq11#q11a111a111eeq111$a1a111
